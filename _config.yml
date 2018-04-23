@@ -1,6 +1,10 @@
 safe: true
 lsi: false
 source: .
+plugins:
+  - jekyll-feed
+feed:
+  path: atom.xml
 exclude:
   - CNAME
   - Dangerfile
